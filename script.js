@@ -259,21 +259,21 @@ onload = () => {
     b_download.onclick = function() {
         Download_canvas()
     }
-    b_fill.onclick = function() {
-        Fill(x, y)
-    }
+    // b_fill.onclick = function() {
+    //     Fill(x, y)
+    // }
     b_brush_r.onclick = function() {
         TOOL = "b_r"
     }
     b_brush_c.onclick = function() {
         TOOL = "b_c"
     }
-    b_pipette.onclick = function() {
-        Pipette()
-    }
-    spray.onclick = function() {
-        TOOL = "s"
-    }
+    // b_pipette.onclick = function() {
+    //     Pipette()
+    // }
+    // spray.onclick = function() {
+    //     TOOL = "s"
+    // }
     b_eraser_r.onclick = function() {
         TOOL = "e_r"
     }
@@ -289,9 +289,9 @@ onload = () => {
     rect.onclick = function() {
         TOOL = "r"
     }
-    circle.onlick = function() {
-        TOOL = "c"
-    }
+    // circle.onlick = function() {
+    //     TOOL = "c"
+    // }
     ellipse.onclick = function() {
         TOOL = "e"
     }
