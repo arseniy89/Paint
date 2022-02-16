@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Paint</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form>
+            <button type="button" id="b_download" class="button">
+                <i class="fa fa-download"></i>
+            </button>
+<!--             <button type="button" id="b_fill" class="button">
+                <i class="fa fa-fill"></i>
+            </button> -->
+            <button type="button" id="b_brush_r" class="button">
+                <i class="fa fa-brush"></i>
+            </button>
+            <button type="button" id="b_brush_c" class="button">
+                <i class="fa fa-pen"></i>
+            </button>
+<!--             <button type="button" id="b_pipette" class="button">
+                <i class="fa fa-syringe"></i>
+            </button> -->
+<!--             <button type="button" id="spray" class="button">
+            Spray</button> -->
+            <button type="button" id="b_eraser_r" class="button">
+            Eraser rect</button>
+            <button type="button" id="b_eraser_c" class="button">
+            Eraser circle</button>
+            <button type="button" id="b_clear" class="button">
+                <i class="fa fa-print"></i>
+            </button>
+            Size <input type="range" id="width" value="10" min="1">
+            Opacity <input type="range" id="opacity" value="100">
+            Color <input type="color" id="color"><br>
+            <button type="button" id="line" class="button">
+            Line</button>
+            <button type="button" id="rect" class="button">
+            Rect</button>
+<!--             <button type="button" id="circle" class="button">
+            Circle</button> -->
+            <button type="button" id="ellipse" class="button">
+            Ellipse</button>
+            <button type="button" id="black_c" class="black"></button>
+            <button type="button" id="white_c" class="white"></button>
+            <button type="button" id="blue_c" class="blue"></button>
+            <button type="button" id="red_c" class="red"></button>
+            <button type="button" id="yellow_c" class="yellow"></button>
+            <button type="button" id="green_c" class="green"></button>
+        </form>
+            <canvas id="canvas" width="1050" height="650"></canvas>
+    </body>
+    <script src="script.js"></script>
+</html>
